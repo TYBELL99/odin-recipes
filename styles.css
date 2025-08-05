@@ -6,9 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-html, body{
-    height: 100%;
-}
+
 #navbar{
     position: fixed;
     width: 100%;
@@ -61,13 +59,13 @@ img{
     grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
     grid-gap: 15px;
     width: 100%;
-    max-width: 1300px;
 }
 .home-img{
     display: flex;
     flex-direction: column;
     height: 300px;
     justify-content: center;
+    align-items:center;
     overflow: hidden;
     border-radius: 10px;
     max-width: 400px;
